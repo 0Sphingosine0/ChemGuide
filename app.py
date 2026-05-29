@@ -597,4 +597,3 @@ elif "Ringkasan" in menu:
             import pandas as pd
             df = pd.DataFrame(table_data)
             st.dataframe(df, use_container_width=True, hide_index=True)
-
